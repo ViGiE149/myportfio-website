@@ -1,0 +1,103 @@
+*{
+    padding:0;
+    margin:0;
+    color:black;
+}
+.halfScreenBackground{
+   z-index: 1;
+width: 46%;
+height: 93vh;
+background-color:rgb(223, 219, 173);
+}
+.avater{
+   
+    width:50%;
+    height: 50%;
+    border-radius: 45%;
+    margin-top:10%;
+   
+}
+.containerDiv{
+    position: absolute;
+    z-index: 100;
+background-color:white;
+width: 70%;
+height: 71%;
+top:51%;
+right:50%;
+left:50%;
+transform: translate(-50%,-50%);
+display: flex;
+
+
+}
+.imgSection{
+ 
+    text-align: center;
+background-color: aliceblue;
+width:50%;
+height: 100%;
+
+}
+
+.imgSection p{
+    font-size: xx-large;
+}
+.desh{
+  width: 30%;
+    height: 2px;
+    border-radius: 10px;
+    background-color: blue;
+margin-left:36%;
+margin-top:20px;
+}
+.imgSection .jobType{
+   font-size:large;
+   color: gray;
+   margin-top: 10px;
+
+
+
+}
+.imgSection2{
+
+    width: 50%;
+    text-align: center;
+}
+h1{
+    font-size: 3em;
+}
+button{
+    width: 40%;
+    border-radius: 20px;
+    height: 6%;
+    margin: 13px 0 13px 0;
+    
+}
+.cvbtn{
+    border: 10px;
+    background-color: blue;
+    color:white;
+}
+.projectsBtn{
+background-color: white;
+}
+.linksIcons{
+
+width:100%;
+height: 8%;
+margin-top:8%;
+background-color:white;
+
+}
+.linksIcons img{
+  
+   margin: 1%;
+    width: 30px;
+    height: 30px;
+   
+}
+
+
+
+
