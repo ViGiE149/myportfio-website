@@ -3,21 +3,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css\global.css" type="text/css" />
+    <link rel="stylesheet" href="css\contact.css" type="text/css" />
+    <script src="script\globalScript.js" defer></script>
+    <title>MY PORTFOLIO</title>
 </head>
 <body>
     
     <nav>
-        <div>V.G</div>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Project</a></li>
-            <li><a href="Contacts.html">Contact</a></li>
+        <input id="nav-toggle" type="checkbox" />
+        <div class="logo">Vi<strong>GiE</strong></div>
+        <ul class="links">
+            <li><a href="about.html">AboutMe</a></li>
+            <li><a href="resume.html">CV</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
     </nav>
 
+   <div class="letTalk" >
+    <span class="blueDot"></span><h2>Let's talk</h2>
+   </div>
 
+<div class="master">
+  <div class="containerr">
+  <div class="space">
+    <div class="inline">
+      <div><p>First Name</p> <input type="text" class="contactInputs"></div> 
+        <div class="span2"> <p for="">Last Name </p><input type="text"class="contactInputs"> </div>
+    </div>  
+    <p>Email</p><input type="text" class="contactInputs" >
+    <p>subject</p><input type="text" class="contactInputs">
+    <p>Message</p> <textarea name="" id="" cols="30" rows="10" ></textarea><br>
+    <button>send</button>
+  &nbsp; <br> <br>&nbsp;
+  </div>
+    
+  </div>
+</div>
+
+
+<footer>
+    <div>
+        <strong>call</strong>
+        <p><a href="tel:0815217387">0815217387</a></p>
+    </div>
+
+    <div>
+        <strong>write</strong>
+        <p>
+            <a href="emailto:vgwala149@gmail.com"
+                >vgwala149@gmail.com</a
+            >
+        </p>
+    </div>
+
+    <div>
+        <strong>follow</strong>
+        <p>
+            <a href="www.linkedin.com" target="_blank">
+                <img src="img\logo-linkedin.svg" alt="linkedin icon"
+            /></a>
+        </p>
+    </div>
+</footer>
 
 </body>
 </html>
